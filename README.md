@@ -19,6 +19,8 @@ At a random time, soup will poop. Catch it if you can!!
 ## CAD & Key mechanism
 ### The full body
 <img width="970" height="602" alt="image" src="https://github.com/user-attachments/assets/848d41ed-1a23-4be2-875f-29d5cde9d061" />
+This is the full body CAD of Soupypoopy. Now, lets explore how the three key mechanisms <mark>pooping</mark>
+### 
 
 
 ## Firmware
