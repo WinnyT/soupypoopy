@@ -12,10 +12,22 @@ Soup is fallout soul and we want to make a memory about it. That's why we create
 4.Remember the precious experience you had in fallout:)
 
 ## How to make it : The Ultimate Building Guide
-1. Print out the CAD through your 3d printer.
-2. Attach the poop tunnel to the soup's poop hole.
-3. Attach MG90S motor to the motor-shaped hole.
-4. 
+1. 3D Print & Assemble: Print all CAD components and snap-fit the housing together.
+
+2. Mount Hardware: Secure the three MG90S servos into their designated slots; attach the poop tunnel to the designated output port.
+
+3. Install Electronics: Mount the Seeed XIAO ESP32C3, PCA9685 driver, PAM8403 amplifier, and buck converter into the internal chassis mounts.
+
+  1. Power: Connect the dual 18650 battery pack to the buck converter input; wire the converter output (set to 5V) to the red/blue breadboard rails or main power distribution.
+  2. I2C Bus: Wire PCA9685 SDA and SCL to the ESP32-C3 SDA and SCL pins.
+  3. Servos: Connect servo signal wires to the PCA9685 PWM output channels (0-2).
+  4. Audio: Connect the PAM8403 L+/L- to the speaker and the Audio In to ESP32 Pin 5.
+
+5. Firmware: Use PlatformIO to upload the "Ultimate Code" firmware to the ESP32-C3.
+
+6. Final Integration: Verify all ground connections are common, close the chassis, and insert the batteries.
+
+7. System Check: Power on, verify servo movement, and confirm audio output triggers via the button.
 
 
 
@@ -23,6 +35,8 @@ Soup is fallout soul and we want to make a memory about it. That's why we create
 
 
 ## Schematic
+
+<img width="889" height="601" alt="image" src="https://github.com/user-attachments/assets/79c3010b-7271-4639-87c0-a4a48dad1c8d" />
 
 
 ## CAD & Key mechanism
