@@ -64,3 +64,10 @@ We attached the speaker inside the soup, and holded it by hot glue.
 
 
 ## Firmware
+Core Functionality - Performance Trigger: 
+- Responds to a button press on the "Left Ear" pin (Pin 2).Motor Sequence: Initializes the DC motor flywheels (via Pin 6 and Pin 7) with a 1-second ramp-up delay to achieve target speed.Payload Deployment:- Triggers the relay-controlled solenoid (Pin 10) for a 250ms pulse while motors are at peak speed.Audio & Animation: Plays a randomized musical sequence (Mario or Tetris themes) through the SPEAKER_PIN (Pin 5) while simultaneously driving a servo motor (Pin 4) in a sweeping motion synchronized to the beat.
+-  Pin AssignmentsComponentESP32-C3 PinPerformance Button2Servo Motor4Speaker (PAM8403)5DC Motor IN16DC Motor IN27Relay (Solenoid)
+- LogicIdle State: The system sits in a low-power loop, monitoring the Left Ear button pin.
+- Activation: Upon detecting a LOW signal (button press), the system enters the triggerPerformance() routine.
+- Mechanical Execution:Motors spin up to launch velocity.Solenoid fires a single, timed pulse to deploy the payload.Motors stop.
+- Audio/Visual Sequence: The system selects a random song array and iterates through frequency/duration data, generating tones while mapping servo angles to create a "dancing" effect.Return: Servo returns to center (90°) and the system returns to the idle state.
