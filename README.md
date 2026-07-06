@@ -32,7 +32,7 @@ Soup is fallout soul and we want to make a memory about it. That's why we create
 
 
 ## Final Product
-
+Check out [demo video](https://youtu.be/WR7H3MUDWkc)
 
 ## Schematic
 
