@@ -1,7 +1,3 @@
-
-
-https://github.com/user-attachments/assets/e13156e8-0539-475e-b705-ab0fd0dd6147
-
 # Soupypoopy - A silly soup created by lok out @fallout
 
 Soup is fallout soul and we want to make a memory about it. That's why we created Soupypoopy, where Soup can dance, sing, and poop.
