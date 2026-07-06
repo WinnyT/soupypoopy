@@ -1,8 +1,10 @@
+
 # Soupypoopy - A silly soup created by lok out @fallout
 
 Soup is fallout soul and we want to make a memory about it. That's why we created Soupypoopy, where Soup can dance, sing, and poop.
 
 ## Zine
+<img width="1410" height="2000" alt="Add a heading (1)" src="https://github.com/user-attachments/assets/fbf979dd-4d40-4e32-a595-3d1c2a856e57" />
 
 ## How to use
 
