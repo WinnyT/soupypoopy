@@ -23,7 +23,10 @@ At a random time, soup will poop. Catch it if you can!!
 This is the full body CAD of Soupypoopy. Now, lets explore how the three key mechanisms: <mark>1. pooping</mark>, <mark>2. dancing</mark> and <mark>singing </mark> works! 
 
 ### Pooping
-https://github.com/user-attachments/assets/a5a393d0-8017-4232-898e-4f47fc7b9895
+
+https://github.com/user-attachments/assets/58249dca-2009-4cac-ab2c-7619b41a9ac4
+
+
 For pooping, we use three CAD components -- poopshooter, poop, and pooping tunnel
 
 ## Firmware
